@@ -7,15 +7,15 @@ string printSequence(string arr[],
     for(int i = 0; i <input.length(); i++){
         if (input[i] == ' ')
            { output = output + "0"; 
-         //    cout<<output<<" "<<input[i]<<" ";
+            // cout<<output<<" "<<input[i]<<" ";
          }
         
         else
         {
             int position = input[i]-'A'; 
-            // cout<<"pos: "<<position<<" ";
+            cout<<"pos: "<<position<<" ";
             output = output + arr[position];
-            // cout<<output<<" "<<input[i]<<" "<<endl;
+            cout<<output<<" "<<input[i]<<" "<<endl;
         }
     }
     return output;
