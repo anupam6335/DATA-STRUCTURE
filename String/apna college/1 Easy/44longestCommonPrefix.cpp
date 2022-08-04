@@ -42,11 +42,7 @@ int main()
         int n; cin >> n;
         string arr[n];
         for (int i = 0; i < n; ++i)
-            cin >> arr[i];
-
-        
-        
-        
+            cin >> arr[i];  
         Solution ob;
         cout << ob.longestCommonPrefix (arr, n) << endl;
     }
