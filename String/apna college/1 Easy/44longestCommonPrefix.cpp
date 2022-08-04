@@ -16,11 +16,13 @@ class Solution{
         int n=N;
         sort(arr,arr+N);
         string ans;
-        for(int i=0; i<N; i++)cout<<arr[i]<<" "; cout<<endl;
+        // for(int i=0; i<N; i++)cout<<arr[i]<<" "; cout<<endl;
     
         string first=arr[0];
+        // cout<<first<<" ";
         string last=arr[n-1];
-        
+        // cout<<last<<" ";
+
         for(int i=0; i<first.size(); i++)
         {
             if(first[i]==last[i])
