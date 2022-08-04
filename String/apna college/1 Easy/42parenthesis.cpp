@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// leetcode
+// leetcode https://leetcode.com/problems/valid-parentheses/
  bool help(char c,char d){
         if(c=='{'){
             if(d=='}')return true;
