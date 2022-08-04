@@ -57,7 +57,7 @@ bool isvalid(string s){
 }
 int main(void){
     string n; cin>>n; 
-    cout<<isValid(n);
+    cout<<isvalid(n);
     return (0);
 }
 
