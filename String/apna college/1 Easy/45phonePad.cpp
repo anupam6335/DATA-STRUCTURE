@@ -13,9 +13,9 @@ string printSequence(string arr[],
         else
         {
             int position = input[i]-'A'; 
-            cout<<"pos: "<<position<<" ";
+            // cout<<"pos: "<<position<<" ";
             output = output + arr[position];
-            cout<<output<<" "<<input[i]<<" "<<endl;
+            // cout<<output<<" "<<input[i]<<" "<<endl;
         }
     }
     return output;
