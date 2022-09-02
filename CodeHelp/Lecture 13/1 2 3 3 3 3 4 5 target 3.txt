@@ -1,0 +1,7 @@
+           1 2 3 3 3 3 4 5        
+
+           first = 3
+           last  = 6
+
+           last - frist + 1
+
