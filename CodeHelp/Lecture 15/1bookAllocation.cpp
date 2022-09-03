@@ -5,7 +5,6 @@ using namespace std;
 bool isPossible(int mid,int A[],int N,int M) {
     int studentCount = 1;
     int pageSum = 0;
-    //cout << "checking for mid "<< mid <<endl;
     
     for(int i = 0; i<N; i++) {
         if(pageSum + A[i] <= mid) pageSum += A[i];
@@ -35,8 +34,8 @@ int help(int A[], int N, int M)
     int mid = s + (e-s) / 2;
     while(s<=e)
     {
-        
-        
+                cout<<"start: "<<s<<" end: "<<e<<" mid: "<<mid<<endl;
+
         if(isPossible(mid,A,N,M)) {
             res = mid;
             e = mid - 1;
