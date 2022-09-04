@@ -44,17 +44,16 @@ int aggressiveCows(vector<int> &stalls, int k)
     return ans;
 }
 
-void help(int n,int *arr){
-    
-}
+
 
 int main(void){
     int n; cin >>n;
-    int arr[n];
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
-    }
-    cout<<""<<endl;
-    help(n,arr);
+    int cows; cin>>cows;
+   vector<int> nums;
+   for(int i=0;i<n;i++){
+    int val; cin>>val;
+    nums.push_back(val);
+   }
+   cout<<aggressiveCows(nums,cows);
     return 0;
 }
