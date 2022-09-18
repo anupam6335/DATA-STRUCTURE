@@ -48,7 +48,7 @@ int main(void){
         int val; cin>>val;
         nums.push_back(val);
     }
-    cout<<help(nums,3);
+    cout<<help(nums,2);
     return 0;
 }
 

@@ -10,7 +10,7 @@ int peekElement(vector<int>nums) {
         else end = mid;
         peek = start;
     }
-    return nums[peek];
+    return peek;
 }
 
 

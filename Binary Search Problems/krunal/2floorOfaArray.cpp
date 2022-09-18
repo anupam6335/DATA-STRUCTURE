@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// greatest greater than or equal to
+/* 
+
+     2 3 5 9 14 16 18 
+     target 15
+     ans = 14
+ */
+
 int help(vector<int>&nums, int target) {
     int start = 0; int end = nums.size()-1;
 
@@ -30,6 +38,6 @@ int main() {
     }
 
     int target ; cin>>target;
-    cout<<nums[help(nums,target)];
+    cout<<help(nums,target);
     return 0;
 }

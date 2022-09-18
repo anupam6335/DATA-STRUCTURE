@@ -11,8 +11,9 @@ int getPivot(vector<int>nums){
         else end = mid;
         pivot = start;
     }
-    return nums[pivot];
+    return pivot - 1;
 }
+
 
 
 int main(void) {

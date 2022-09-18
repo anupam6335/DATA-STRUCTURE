@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 
 // smallest greater than or equal to
@@ -9,13 +9,13 @@ using namespace std;
      ans = 16
  */
 
-int help(vector<int>nums, int target) {
-    int start = 0; int end = nums.size() -1;
-    int ans = -1;
+char help(vector<char>& letters, int target) {
+    int start = 0; int end = letters.size() -1;
+    char ans = letters[0];
     // if(target > nums[end])  return -1;
     while(start < end) {
         int mid = start + (end - start)/2;
-        if(nums[mid]>= target) {
+        if(letters[mid]> target) {
             ans = mid;
             end = mid -1;
         } else {
@@ -27,7 +27,7 @@ int help(vector<int>nums, int target) {
 
 int main(void) {
     int n; cin >>n;
-    vector<int>nums;
+    vector<char>nums;
 
     for (int i =0; i<n; i++) {
         int val; cin >>val;
